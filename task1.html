@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Web Development</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color:antiquewhite;
+            color: #333;
+            margin: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+        h1 {
+            color:black;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        a {
+            color: #1870c7;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .image-section img {
+            width: 300px;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #007acc;
+            color:antiquewhite;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #005fa3;
+        }
+        #link{
+            text-decoration: none;
+            color: black;
+        }
+        .image-section p{
+            font-weight: 800;
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HTML Elements -->
+    <h1>Welcome to Basics Of Web Development</h1>
+    <p>This page demonstrates HTML structure, CSS styling, and JavaScript interactivity.</p>
+
+    <!-- Link Element -->
+    <p>Learn more about <a href="https://developer.mozilla.org/en-US/docs/Web" target="_blank" id="link"><strong>Web development</strong></a>.</p>
+
+    <!-- Image Element -->
+    <div class="image-section">
+        <p>Sample Image:</p>
+        <img src="image.jpeg" alt="Web image">
+    </div>
+
+    <!-- Button for JavaScript -->
+    <button onclick="showAlert()">Click Me</button>
+
+    <!-- JavaScript Code -->
+    <script>
+        function showAlert() {
+            alert("Thank You! Please visit again.");
+        }
+    </script>
+
+</body>
+</html>
